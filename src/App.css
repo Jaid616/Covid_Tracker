@@ -1,0 +1,46 @@
+.pos{
+    position : relative;
+}
+
+.pos::after{
+    content: "Live";
+    position: absolute;
+    top:30%;
+    /* left:25%; */
+    font-size: 15px;
+    
+    opacity: 1;
+    animation: infi 2s linear infinite;
+    
+   
+}
+
+@keyframes infi {
+
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+        color: rgb(232 255 0); 
+    }
+    100%{
+        opacity: 1;
+        color: rgb(232 255 0); 
+    }
+}
+
+.bg-img{
+    background-image: url(./bg6.jpg);
+  
+}
+.color{
+    color: rgb(232 255 0);
+    background-color:#5b5bfb4a;
+}
+.bgcolor{
+    color:black;
+}
+.text-color{
+    color: rgb(232 255 0); 
+}
